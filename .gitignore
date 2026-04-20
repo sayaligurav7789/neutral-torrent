@@ -1,0 +1,63 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.local.example
+*.key
+*.pem
+secrets/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+*.tsbuildinfo
+
+# Foundry / Hardhat
+cache/
+artifacts/
+broadcast/
+deployments/
+typechain/
+typechain-types/
+
+# Coverage
+coverage/
+*.lcov
+coverage.json
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.cache/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local development
+.local/
